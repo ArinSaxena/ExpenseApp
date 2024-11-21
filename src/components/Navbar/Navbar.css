@@ -1,7 +1,30 @@
 
-.navbar{
-    height: 15vh;
-    width: 100vw;
-    border: 2px solid black;
-    background-color: darkkhaki;
-}
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px; /* Padding around the navbar */
+    display: flex;
+    justify-content: center; /* Center the links */
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none; 
+    display: flex; 
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white; 
+    font-size: 16px; 
+    padding: 5px 10px;
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #45a049; 
+  }
+  

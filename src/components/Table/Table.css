@@ -1,5 +1,5 @@
 table {
-    width: 70%;
+    width: 60%;
     border-collapse: collapse;
   }
   
@@ -11,5 +11,18 @@ table {
   
   th {
     background-color: #f4f4f4;
+  }
+  .dlt-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    margin: 5px;
+    background-color: rgb(201, 61, 61);
+
+  }
+  .dlt-btn :hover{
+    background-color: red;
   }
   
